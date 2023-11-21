@@ -18,12 +18,13 @@ export class Api {
     atenderPeticiones() {
         //atendiendo peticiones usuario
         this.app.use("/",rutaAPI)
+        this.app.use(express.json())
        
-        //atendiendo peticiones Vehiculos
-        this.app.use("/",rutaAPI)
+        // //atendiendo peticiones Vehiculos
+        // this.app.use("/",rutaAPI)
 
-        //atendiendo peticiones RentaVehiculos
-        this.app.use("/",rutaAPI)
+        // //atendiendo peticiones RentaVehiculos
+        // this.app.use("/",rutaAPI)
     }
     //Se conecta a la Base de datos
 
