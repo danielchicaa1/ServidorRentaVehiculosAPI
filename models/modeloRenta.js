@@ -31,3 +31,5 @@ const Renta = new Schema({
         required:[true,"Estado es requerido"]
     }
 })
+
+export const modeloRenta=mongoose.model('Rentas',Renta)

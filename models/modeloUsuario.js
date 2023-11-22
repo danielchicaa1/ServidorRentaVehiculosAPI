@@ -31,3 +31,5 @@ const Usuario = new Schema({
         required: [true, "La Palabra Clave es requerida"]
     }
 })
+
+export const modeloUsuario=mongoose.model('Usuarios',Usuario)
